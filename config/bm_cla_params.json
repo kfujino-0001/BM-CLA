@@ -1,0 +1,117 @@
+{
+	"MLCLA": {
+		"HtmLayer_00": {
+			"columnDimensions": [2048],
+			"nbCellsForColumns": 4,
+			"nbRegions": 1,
+
+			"ActiveColumnSender": {},
+			"ActiveCellReceiver": {},
+			"HtmSpatialPooler": {
+				"potentialRadius": 20,
+				"potentialPct": 1.0,
+				"globalInhibition": true,
+				"localAreaDensity": 0.02,
+				"stimulusThreshold": 0,
+				"synPermInactiveDec": 0.00025225,
+				"symPermActiveInc": 0.1,
+				"symPermConnected": 0.1,
+				"synInitPermanence": 0.2,
+				"minPctOverlapDutyCycles": 0.0010,
+				"dutyCyclePeriod": 1000,
+				"boostStrength": 0.0,
+				"spVerbosity": 0,
+				"wrapAround": true,
+				"constSynInitPermanence": true
+			},
+			"HtmTemporalMemory": {
+				"activationThreshold" : 15,
+				"initialPermanence" : 0.2100,
+				"connectedPermanence" : 0.3,
+				"minThreshold" : 10,
+				"maxNewSynapseCount" : 20,
+				"permanenceIncrement" : 0.100,
+				"permanenceDecrement" : 0.100,
+				"predictedSegmentDecrement" : 0.005,
+				"maxSegmentsPerCell" : 255,
+				"maxSynapsesPerSegment" : 255,
+				"checkInputs" : true,
+				"exceptionHandling" : false,
+				"externalPredictiveInputs" : 0,
+				"synapseDestinationWeight" : 0.5,
+				"createSynWeight" : 0.0,
+				"destroySynWeight" : 0.0,
+				"activateWeight" : 0.0,
+				"capacityOfNbActiveSegments" : 50,
+				"capacityOfNbMatchingSegments" : 0,
+				"innerSegmentSelectorMode" : "Threshold",
+				"outerSegmentSelectorMode" : "Threshold",
+				"anomalyMode" : 1
+			},
+			"IntensityAccepter": {
+				"intensityThreshold" : 20
+			},
+			"DirectAdapter": {}
+		},
+
+		"HtmLayer_01": {
+			"columnDimensions": [2048],
+			"nbCellsForColumns": 4,
+			"nbRegions": 1,
+
+			"BurstColumnSender": {},
+			"ActiveCellReceiver": {},
+			"HtmSpatialPooler": {
+				"potentialRadius": 10,
+				"potentialPct": 1.0,
+				"globalInhibition": true,
+				"localAreaDensity": 0.02,
+				"stimulusThreshold": 0,
+				"synPermInactiveDec": 0.00025225,
+				"symPermActiveInc": 0.1,
+				"symPermConnected": 0.1,
+				"synInitPermanence": 0.2,
+				"minPctOverlapDutyCycles": 0.0010,
+				"dutyCyclePeriod": 1000,
+				"boostStrength": 0.0,
+				"spVerbosity": 0,
+				"wrapAround": true,
+				"constSynInitPermanence": true
+			},
+			"HtmTemporalMemory": {
+				"activationThreshold" : 15,
+				"initialPermanence" : 0.2100,
+				"connectedPermanence" : 0.3,
+				"minThreshold" : 10,
+				"maxNewSynapseCount" : 20,
+				"permanenceIncrement" : 0.100,
+				"permanenceDecrement" : 0.100,
+				"predictedSegmentDecrement" : 0.005,
+				"maxSegmentsPerCell" : 255,
+				"maxSynapsesPerSegment" : 255,
+				"checkInputs" : true,
+				"exceptionHandling" : false,
+				"externalPredictiveInputs" : 0,
+				"synapseDestinationWeight" : 0.5,
+				"createSynWeight" : 0.0,
+				"destroySynWeight" : 0.0,
+				"activateWeight" : 0.0,
+				"capacityOfNbActiveSegments" : 50,
+				"capacityOfNbMatchingSegments" : 0,
+				"innerSegmentSelectorMode" : "Threshold",
+				"outerSegmentSelectorMode" : "Threshold",
+				"anomalyMode" : 1
+			},
+			"FullAccepter": {},
+			"DirectAdapter": {}
+		},
+		
+		"ScalarIO": {
+			"nbInputs": 1,
+			"dimensions": [421],
+			"nbActiveBits": 21,
+			"mins": [3985.32],
+			"maxs": [11271.1]
+		}
+	}
+}
