@@ -3,8 +3,8 @@
 
 This repository contains the C++ implementation of Decay-BM-CLA on the following paper.
 
-**Title**: Multi-layer Cortical Learning Algorithm for Forecasting Time-series Data with Smoothly Changing Variation Patterns
-**Authors**: Kazushi Fujino, Keiki Takadama, and Hiroyuki Sato.
+- **Title**: Multi-layer Cortical Learning Algorithm for Forecasting Time-series Data with Smoothly Changing Variation Patterns
+- **Authors**: Kazushi Fujino, Keiki Takadama, and Hiroyuki Sato.
 
 The majority of the implementation is based on [htm.core](https://github.com/htm-community/htm.core).
 
